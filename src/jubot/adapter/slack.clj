@@ -13,7 +13,7 @@
     [clojure.data.json        :as    json]
     [clj-http.lite.client     :as    client]))
 
-(def ^:private DEFAULT_PORT 8080)
+(def ^:private DEFAULT_PORT 8008)
 (def ^:private OUTGOING_TOKEN_KEY "SLACK_OUTGOING_TOKEN")
 (def ^:private INCOMING_URL_KEY   "SLACK_INCOMING_URL")
 

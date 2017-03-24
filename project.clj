@@ -1,4 +1,4 @@
-(defproject jubot "0.1.1"
+(defproject ksseono/jubot "0.1.1"
   :description "Chatbot framework in Clojure"
   :url "https://github.com/liquidz/jubot"
   :license {:name "Eclipse Public License"

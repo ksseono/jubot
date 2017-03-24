@@ -1,5 +1,5 @@
 # jubot
-[![Circle CI](https://circleci.com/gh/liquidz/jubot.svg?style=svg)](https://circleci.com/gh/liquidz/jubot) [![Dependency Status](https://www.versioneye.com/user/projects/54ca4610de7924f81a0000dc/badge.svg?style=flat)](https://www.versioneye.com/user/projects/54ca4610de7924f81a0000dc)
+[![Circle CI](https://circleci.com/gh/liquidz/jubot.svg?style=svg)](https://circleci.com/gh/liquidz/jubot) [![Dependency Status](https://www.versioneye.com/user/projects/58d5202f6893fd003facc1ca/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/58d5202f6893fd003facc1ca)
 
 **[API Docs](http://liquidz.github.io/jubot/api/)**
 

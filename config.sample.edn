@@ -1,0 +1,3 @@
+{:adapter
+ {:slack-outgoing-token "TOKEN_VALUE_HERE"}}
+

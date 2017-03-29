@@ -5,6 +5,7 @@
   (:require
     [jubot.adapter.util :refer :all]
     [jubot.redef :refer :all]
+    [jubot.config :refer :all]
     [com.stuartsierra.component :as component]
     [ring.adapter.jetty       :refer [run-jetty]]
     [ring.middleware.defaults :refer :all]
@@ -42,7 +43,7 @@
     Text string or nil.
   "
   [token text]
-  (if (= token (getenv* OUTGOING_TOKEN_KEY))
+  (if (= token (or (-> (read-config) :adapter :slack-outgoing-token) (getenv* OUTGOING_TOKEN_KEY)))
     text))
 
 (defn process-output

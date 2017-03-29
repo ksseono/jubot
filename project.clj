@@ -12,11 +12,12 @@
                  [ring/ring-jetty-adapter     "1.5.1"]
                  [ring/ring-defaults          "0.2.3"]
                  [org.clojure/data.json       "0.2.6"]
-                 [com.taoensso/carmine        "2.15.1"]
+                 [com.taoensso/carmine        "2.16.0"]
                  [com.taoensso/timbre         "4.8.0"]
                  [com.taoensso/encore         "2.90.1"]
                  [clj-http-lite               "0.3.0"]
-                 [im.chit/cronj               "1.4.4"]]
+                 [im.chit/cronj               "1.4.4"]
+                 [environ                     "1.1.0"]]
 
   :profiles {:dev {:dependencies
                    [[org.clojars.runa/conjure "2.2.0"]
